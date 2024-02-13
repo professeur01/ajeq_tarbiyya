@@ -84,6 +84,10 @@ margin-top: 1.7rem;
 .titre-text-about{
     color: #0f3442;
 }
+.lien:hover{
+    color: rgba(11, 100, 42, 0.731) !important;
+    font-weight: bolder;
+ }
 
 @media screen and (min-width:992px) {
     .nav-item {

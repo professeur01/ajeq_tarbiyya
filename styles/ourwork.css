@@ -56,3 +56,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.lien:hover{
+    color: rgba(11, 100, 42, 0.731) !important;
+    font-weight: bolder;
+ }
