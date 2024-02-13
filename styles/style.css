@@ -133,7 +133,10 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.lien:hover{
+   color: rgba(11, 100, 42, 0.731) !important;
+   font-weight: bolder;
+}
 /* ================SLIDER STYLE========================= */
 .mySlides {display:none;}
 .w3-section{
