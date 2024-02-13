@@ -206,6 +206,7 @@ button:active>svg>path {
 .good-education-text p {
   width: 75%;
   color: darkslategrey;
+  font-size: 18px;
 }
 
 /* ================ FIN ========================= */
@@ -226,18 +227,19 @@ button:active>svg>path {
   justify-content: center;
   align-items: center;
   height: 100% !important;
+  background-image: url(../images/mandala-green.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: top -27% right 12%;
 }
 
 .charity-SE-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   height: 100% !important;
-  background-image: url(../images/mandala-green.jpg);
-  background-repeat: no-repeat;
-  background-size: 300px;
-  background-position: bottom -27% right -10%;
+
 }
 
 .charity-SE-illus img {
@@ -245,11 +247,18 @@ button:active>svg>path {
 }
 
 .charity-SE-text h3 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
   color: #36b257;
+  margin-bottom: 50px;
+  width: 75%;
 }
 
 .charity-SE-text p {
   width: 75%;
+  color: darkslategrey;
+  font-size: 18px;
 }
 
 /* ================ FIN ========================= */
