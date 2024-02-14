@@ -292,13 +292,17 @@ button:active>svg>path {
   background-color: #e7f6d3;
   height: 100%;
   border-radius: 0px 15px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .footer-row span{
   height: 10%;
   background-color: #fff;
   box-shadow: rgba(103, 218, 147, 0.2) 0px 0px 0px 1px inset, rgba(0, 50, 6, 0.9) 0px 0px 0px 1px;
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
+  color: darkslategrey;
 }
 .footer-logo-img{
   width: 150px;
@@ -309,6 +313,42 @@ button:active>svg>path {
   letter-spacing: 1px;
   font-size: 18px;
   margin-bottom: 3px;
+  color: darkslategrey;
+}
+.social-icons{
+  display: flex;
+  flex-direction: column;
+}
+.social-icons p{
+ font-size: 18px;
+ font-weight: 700;
+ color: darkslategrey;
+ margin-bottom: 0;
+
+}
+.list-social{
+  display: flex;
+  flex-direction: column;
+}
+.list-social li{
+ list-style: none;
+ padding: 5px 0;
+ width: fit-content;
+}
+.list-social img{
+  width: 25px;
+  margin-left: 5px;
+}
+.div-tel{
+display: flex;
+}
+.div-tel strong{
+  font-size: 17px;
+  letter-spacing: 1px;
+  }
+.div-tel img{
+  width: 30px;
+  margin-right: 10px;
 }
 /* ================ FIN ========================= */
 @media screen and (min-width:992px) {
