@@ -284,6 +284,10 @@ button:active>svg>path {
   align-items: center;
   
 }
+.footer-logo ul .nav-item{
+ line-height: 30px;
+  
+}
 .footer-social{
   background-color: #e7f6d3;
   height: 100%;
@@ -304,6 +308,14 @@ button:active>svg>path {
 @media screen and (min-width:992px) {
   .nav-item {
     line-height: 80px;
+  }
+  .navbar-nav li .active{
+    padding: 0 10px !important;
+    color: #e7f6d3 !important;
+    background-color: #34a66b!important;
+    font-weight: 600;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
 }
 

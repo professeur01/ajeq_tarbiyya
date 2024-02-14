@@ -93,4 +93,12 @@ margin-top: 1.7rem;
     .nav-item {
         line-height: 80px;
     }
+    .navbar-nav li .active{
+        padding: 0 10px !important;
+        color: #e7f6d3 !important;
+        background-color: #34a66b!important;
+        font-weight: 600;
+        border-radius: 20px 0px 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      }
 }
