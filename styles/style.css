@@ -304,6 +304,12 @@ button:active>svg>path {
   width: 150px;
   height: 150px !important;
 }
+.lien-page{
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
 /* ================ FIN ========================= */
 @media screen and (min-width:992px) {
   .nav-item {
@@ -316,6 +322,9 @@ button:active>svg>path {
     font-weight: 600;
     border-radius: 20px 0px 20px 0px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .footer-logo .nav-item {
+   list-style: none !important;
   }
 }
 
