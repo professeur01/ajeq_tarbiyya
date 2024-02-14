@@ -262,6 +262,32 @@ button:active>svg>path {
 }
 
 /* ================ FIN ========================= */
+/* ================ FOOTER ========================= */
+footer{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer div :nth-child(1){
+  background-color: #2ba066;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+ }
+ footer div :nth-child(2){
+  background-color: #2b58a0;
+  height: 25vh;
+ }
+footer div :nth-child(3){
+  background-color: #06361e;
+  color: #fafff3;
+}
+.footer-logo-img{
+  width: 150px;
+  height: 150px !important;
+}
+/* ================ FIN ========================= */
 @media screen and (min-width:992px) {
   .nav-item {
     line-height: 80px;
