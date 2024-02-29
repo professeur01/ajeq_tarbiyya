@@ -50,7 +50,7 @@ nav {
     border-radius: 6px;
 }
 .div-row-map{
-  height: 75vh !important;
+  height: 80vh !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +59,16 @@ nav {
   background: rgba(255, 255, 255, 0.120) ;
   border-radius: 6px;
 }
-
+.div-row-map div{
+  display: flex;
+  justify-content: center;
+}
+.fas{
+  margin-left: 1rem;
+}
+::placeholder{
+  color: black !important;
+}
 .lien:hover{
     color: rgba(11, 100, 42, 0.731) !important;
     font-weight: bolder;
@@ -96,6 +105,9 @@ nav {
   header {
     width: 100%;
     height: 200vh !important;
+  }
+  .div-row-map{
+    height: 90vh !important;
   }
 
   #scrollingText {
