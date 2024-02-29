@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif; 
 }
 header{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background: linear-gradient(to right, rgb(69, 236, 167), rgb(15, 52, 67));
 }
@@ -46,7 +46,18 @@ nav {
     text-align: center;
     color: #fff;
     background: rgba(255, 255, 255, 0.120) ;
-   
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+.div-row-map{
+  height: 75vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.120) ;
+  border-radius: 6px;
 }
 
 .lien:hover{
@@ -74,7 +85,7 @@ nav {
 @media screen and (max-width:843px) {
   header {
     width: 100%;
-    height: 120vh !important;
+    height: 200vh !important;
   }
   .b-marge{
     margin-bottom: 1rem;
@@ -84,7 +95,7 @@ nav {
 @media screen and (max-width:1024px) {
   header {
     width: 100%;
-    height: 120vh !important;
+    height: 200vh !important;
   }
 
   #scrollingText {
