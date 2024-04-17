@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+header{
+    height: 180vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(69, 236, 167), rgb(15, 52, 67));
+}
+
+.navbar .navbar-toggler-icon {
+    background: hsl(153, 89%, 31%)!important;
+    border-radius: 3px;
+    background-image: url(/images/menu.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    }
+    .navbar .navbar-toggler-icon:active{
+        background: hsl(153, 92%, 19%)!important;
+    }
+.burger{
+    color: green !important;
+}
+.link {
+    color: rgb(11, 148, 59) !important;
+}
+
+nav {
+    background-color: #fafffa;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.div-row-contact{
+    height: 75vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.120) ;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+
+::placeholder{
+  color: black !important;
+}
+.lien:hover{
+    color: rgba(11, 100, 42, 0.731) !important;
+    font-weight: bolder;
+ }
+/* ================ FIN ========================= */
+@media screen and (min-width:992px) {
+  .nav-item {
+    line-height: 80px;
+  }
+  .navbar-nav li .active{
+    padding: 0 10px !important;
+    color: #e7f6d3 !important;
+    background-color: #34a66b!important;
+    font-weight: 600;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .footer-logo .nav-item {
+   list-style: none !important;
+  }
+}
+
+@media screen and (max-width:843px) {
+  header {
+    width: 100%;
+    height: 200vh !important;
+  }
+  .b-marge{
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  header {
+    width: 100%;
+    height: 200vh !important;
+  }
+  .div-row-map{
+    height: 90vh !important;
+  }
+
+  #scrollingText {
+    font-size: 14px;
+    width: 85% !important;
+  }
+
+  .w3-section {
+    width: 85%;
+  }
+}
